@@ -7,9 +7,10 @@ Para a integração com o SQL Server é necessário seguir o passo a passo:
 3) Configurar um certificado SSL (pode ser um autoassinado se for ambiente de desenvolvimento).
 4) Verificar se a instância do servidor tem permissão para acessar o certificado.
 5) Criar um arquivo em python para as credenciais. Exemplo do código:
-                        class credentialsSQLSERVER:
-                            SERVER = 'nome_servidor'
-                            DATABASE = 'nome_database'
+
+                           class credentialsSQLSERVER:
+                                 SERVER = 'nome_servidor'
+                                 DATABASE = 'nome_database'
 
 
 Interface final da calculadora:
